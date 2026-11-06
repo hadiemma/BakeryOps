@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Production & Build outputs
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+
+# Environment variables & secrets (Strictly prevent leakage)
+.env*
+!.env.example
+
+# Local SQLite databases & backups (Protect private operational state)
+data/*.sqlite
+data/*.sqlite-*
+data/*.sqlite.*
+data/*.db
+data/*.db-*
+data/*.db.*
+
+# Logs and runtime traces
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Backup archives
+*.zip
+*.tar.gz
+
+# Test reports
+test-results/
+playwright-report/
+coverage/
+
+# IDE & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Switch runtime artifacts
+.switch/
