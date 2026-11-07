@@ -4,7 +4,8 @@
 > An intelligent, autonomous bakery operations platform powered by **Next.js 15**, **SQLite**, and **four specialist AI agents** orchestrated seamlessly in real-time through **Switch Console** and bridged to **Discord & Mattermost**.
 
 ---
- ⚡How We Used Switch
+## ⚡How We Used Switch
+
 BakeryOps AI uses Switch as the core orchestration engine and communication fabric for the autonomous operations team:
 
 Specialist Agent Management: Switch hosts and runs the 4 AI specialists (order-analyst, production-planner, inventory-manager, and staff-task-assigner) on the local machine with automated permission boundaries and workspace bindings.
