@@ -4,9 +4,7 @@
 > An intelligent, autonomous bakery operations platform powered by **Next.js 15**, **SQLite**, and **four specialist AI agents** orchestrated seamlessly in real-time through **Switch Console** and bridged to **Discord & Mattermost**.
 
 ---
-Here is a concise version formatted as a clean subheading section for your README:
 
----
 
 ### ⚡ How We Used Switch
 
@@ -27,9 +25,6 @@ Small and commercial bakeries operate in a high-stakes, fast-paced environment w
 - **Authoritative Calculations:** Recipe scaling, batch yields, prep/bake durations, and inventory deductions are calculated with mathematical precision by an immutable TypeScript engine—never guessed by an LLM.
 - **Collaborative Specialist Agents:** Four purpose-built AI agents collaborate in a dedicated Switch operations room (`#bakeryops-operations` in Discord/Mattermost) to analyze intake feasibility, plan oven schedules, challenge stock deficits, and dispatch staff tasks.
 - **Human-in-the-Loop Governance:** The Human Bakery Manager retains final authority over plan approvals, purchase authorizations, and order closures.
-
----
-Here is a clean, focused subheading section explaining human-agent collaboration:
 
 ---
 
