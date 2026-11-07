@@ -8,10 +8,10 @@
 
 BakeryOps AI uses Switch as the core orchestration engine and communication fabric for the autonomous operations team:
 
-Specialist Agent Management: Switch hosts and runs the 4 AI specialists (order-analyst, production-planner, inventory-manager, and staff-task-assigner) on the local machine with automated permission boundaries and workspace bindings.
-Collaborative Message Bus: Agents interact via Switch's underlying Matrix bus in a shared operations room (bakeryops-operations), autonomously passing structured tasks, challenges, and revisions without rigid point-to-point wiring.
-Two-Way Discord/Chat Bridging: Switch bridges the agents' room directly into Discord (#bakeryops-operations), enabling human managers to review proposals, approve bakes, and authorize orders from chat.
-1-Click Reproducibility (template.yaml): The entire multi-agent workforce and operations room are packaged as a portable Switch Template (v2), allowing anyone to recreate the complete AI team in seconds.
+- Specialist Agent Management: Switch hosts and runs the 4 AI specialists (order-analyst, production-planner, inventory-manager, and staff-task-assigner) on the local machine with automated permission boundaries and workspace bindings.
+- Collaborative Message Bus: Agents interact via Switch's underlying Matrix bus in a shared operations room (bakeryops-operations), autonomously passing structured tasks, challenges, and revisions without rigid point-to-point wiring.
+- Two-Way Discord/Chat Bridging: Switch bridges the agents' room directly into Discord (#bakeryops-operations), enabling human managers to review proposals, approve bakes, and authorize orders from chat.
+- 1-Click Reproducibility (template.yaml): The entire multi-agent workforce and operations room are packaged as a portable Switch Template (v2), allowing anyone to recreate the complete AI team in seconds.
 
 ## 🌟 1. Executive Summary & Vision
 
