@@ -4,14 +4,20 @@
 > An intelligent, autonomous bakery operations platform powered by **Next.js 15**, **SQLite**, and **four specialist AI agents** orchestrated seamlessly in real-time through **Switch Console** and bridged to **Discord & Mattermost**.
 
 ---
-## ⚡How We Used Switch
+Here is a concise version formatted as a clean subheading section for your README:
 
-BakeryOps AI uses Switch as the core orchestration engine and communication fabric for the autonomous operations team:
+---
 
-- Specialist Agent Management: Switch hosts and runs the 4 AI specialists (order-analyst, production-planner, inventory-manager, and staff-task-assigner) on the local machine with automated permission boundaries and workspace bindings.
-- Collaborative Message Bus: Agents interact via Switch's underlying Matrix bus in a shared operations room (bakeryops-operations), autonomously passing structured tasks, challenges, and revisions without rigid point-to-point wiring.
-- Two-Way Discord/Chat Bridging: Switch bridges the agents' room directly into Discord (#bakeryops-operations), enabling human managers to review proposals, approve bakes, and authorize orders from chat.
-- 1-Click Reproducibility (template.yaml): The entire multi-agent workforce and operations room are packaged as a portable Switch Template (v2), allowing anyone to recreate the complete AI team in seconds.
+### ⚡ How We Used Switch
+
+BakeryOps AI uses **Switch** as the core orchestration engine and communication fabric for the autonomous operations team:
+
+- **Specialist Agent Management:** Switch hosts and runs the 4 AI specialists (`order-analyst`, `production-planner`, `inventory-manager`, and `staff-task-assigner`) on the local machine with automated permission boundaries and workspace bindings.
+- **Collaborative Message Bus:** Agents interact via Switch's underlying Matrix bus in a shared operations room (`bakeryops-operations`), autonomously passing structured tasks, challenges, and revisions without rigid point-to-point wiring.
+- **Two-Way Discord/Chat Bridging:** Switch bridges the agents' room directly into Discord (`#bakeryops-operations`), enabling human managers to review proposals, approve bakes, and authorize orders from chat.
+- **1-Click Reproducibility (`template.yaml`):** The entire multi-agent workforce and operations room are packaged as a portable Switch Template (v2), allowing anyone to recreate the complete AI team in seconds.
+
+---
 
 ## 🌟 1. Executive Summary & Vision
 
@@ -21,6 +27,20 @@ Small and commercial bakeries operate in a high-stakes, fast-paced environment w
 - **Authoritative Calculations:** Recipe scaling, batch yields, prep/bake durations, and inventory deductions are calculated with mathematical precision by an immutable TypeScript engine—never guessed by an LLM.
 - **Collaborative Specialist Agents:** Four purpose-built AI agents collaborate in a dedicated Switch operations room (`#bakeryops-operations` in Discord/Mattermost) to analyze intake feasibility, plan oven schedules, challenge stock deficits, and dispatch staff tasks.
 - **Human-in-the-Loop Governance:** The Human Bakery Manager retains final authority over plan approvals, purchase authorizations, and order closures.
+
+---
+Here is a clean, focused subheading section explaining human-agent collaboration:
+
+---
+
+### 🤝 Human-in-the-Loop & Multi-Agent Collaboration
+
+BakeryOps AI is built on a shared-governance model where AI agents handle analytical heavy lifting while the human bakery manager retains final decision authority:
+
+- **Autonomous Agent Negotiation:** When an order is created, the 4 agents collaborate autonomously in the `#bakeryops-operations` channel—validating intake, scheduling oven timelines, challenging ingredient deficits, and drafting staff rosters.
+- **Human Approval Gates:** High-stakes actions require explicit human sign-off. The Order Analyst submits structured approval requests directly to the manager for bake schedules, batch revisions, or emergency ingredient purchases.
+- **Seamless Chat Governance:** Managers participate from Discord or the web UI. Replying with a simple message (e.g., `"Approved"`) triggers the system to lock in production plans, generate staff tasks, and advance workflows automatically.
+- **Anti-Loop Safety:** If agents cannot resolve a constraint conflict within 2 revision rounds, Switch automatically halts autonomous negotiation and escalates the decision directly to the manager.
 
 ---
 
